@@ -61,7 +61,15 @@ Everything revolves around:
 
 Nizaam is built as a **modular ecosystem**, not a single app.
 
-Apps (Products) ↓ API Platform ↓ Core + Knowledge Graph + Engines ↓ Databases
+```
+Apps (Products)
+     ↓
+API Platform
+     ↓
+Core + Knowledge Graph + Engines
+     ↓
+Databases
+```
 
 ---
 
