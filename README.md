@@ -1,6 +1,6 @@
 # 🕌 Nizaam – Islamic Ecosystem
 
-![Status](https://img.shields.io/badge/status-in%20development-blue)
+![Status](https://img.shields.io/badge/status-proposal-blue)
 ![Architecture](https://img.shields.io/badge/architecture-modular-green)
 ![Focus](https://img.shields.io/badge/focus-Islamic%20System-orange)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
@@ -9,11 +9,11 @@
 
 ## 📖 Introduction
 
-**Nizaam** is a unified Islamic ecosystem designed to help Muslims live a structured, disciplined, and conscious life based on the principles of Islam.
+**Nizaam** will be a unified Islamic ecosystem designed to help Muslims live a structured, disciplined, and conscious life based on the principles of Islam.
 
-It is not just a collection of apps.
+It will not be just a collection of apps.
 
-It is a **complete system** that connects:
+It will be a **complete system** that will connect:
 
 * Knowledge (Qur’an, Hadith, Tafsir, Aqeedah, Fiqh)
 * Daily life (discipline, habits, reflection)
@@ -22,7 +22,7 @@ It is a **complete system** that connects:
 * Real-world tools (scanner, masjid system, APIs)
 
 > **Goal:**
-> Build a system where Islam is not separate from life, but becomes the foundation of it.
+> Build a system where Islam will not remain separate from life, but will become the foundation of it.
 
 ---
 
@@ -37,9 +37,9 @@ Today, Muslims rely on multiple disconnected tools:
 
 This creates fragmentation.
 
-**Nizaam solves this by unifying everything into one system.**
+**Nizaam will solve this by unifying everything into one system.**
 
-It helps users:
+It will help users:
 
 * build discipline through Islam
 * understand Qur’an deeply
@@ -51,17 +51,17 @@ It helps users:
 
 ## 🧠 Core Idea
 
-At the center of Nizaam is:
+At the center of Nizaam will be:
 
 > **Deen Companion — an Islamic Discipline System**
 
-A system designed to:
+A system that will be designed to:
 
 * fix bad habits
 * build consistency
 * align daily life with Deen
 
-Everything revolves around:
+Everything will revolve around:
 
 * **Salah → Discipline**
 * **Knowledge → Understanding**
@@ -71,7 +71,7 @@ Everything revolves around:
 
 # 🏗️ Architecture Overview (Refined)
 
-Nizaam follows a **data-first, modular architecture**:
+Nizaam will follow a **data-first, modular architecture**:
 
 ```text
 External Data Sources
@@ -99,7 +99,7 @@ Apps (Products)
 
 ## 🌍 Data Sources Strategy
 
-Initially, Nizaam will use:
+Initially, Nizaam will rely on:
 
 * External APIs (Qur’an, Hadith, Prayer Times)
 * Public datasets
@@ -107,20 +107,20 @@ Initially, Nizaam will use:
 
 Over time:
 
-> Nizaam will build its **own verified datasets**
+> Nizaam will gradually build its **own verified datasets**
 
 ---
 
 ## 🔄 Bridges Layer (Integration Layer)
 
-Bridges handle:
+Bridges will handle:
 
 * external API normalization
 * OCR pipelines (MediaProc)
 * data transformation
 * service integration
 
-👉 They act as:
+👉 They will act as:
 
 > **Adapters between external systems and Nizaam**
 
@@ -128,13 +128,13 @@ Bridges handle:
 
 ## 🔄 Data Pipeline
 
-Responsible for:
+The data pipeline will be responsible for:
 
 ```
 Fetch → Transform → Normalize → Validate → Store
 ```
 
-Ensures:
+It will ensure:
 
 * consistent data format
 * clean datasets
@@ -144,7 +144,7 @@ Ensures:
 
 ## 📦 Ecosystem Core
 
-The foundation layer containing:
+This layer will act as the foundation and will contain:
 
 * Qur’an schemas (ayah, word, root, sarf, nahw)
 * Hadith schemas (isnad, authenticity)
@@ -157,22 +157,22 @@ The foundation layer containing:
 
 ## ⚙️ Engines (Processing Layer)
 
-Reusable logic systems:
+Reusable logic systems will include:
 
 * **Language Engine** → tokenization, sarf, nahw
 * **Fiqh Engine** → rule evaluation
 * **Halal Engine** → ingredient classification
 * **Knowledge Engine** → lesson extraction
 
-These engines operate on **structured data only** (no AI dependency).
+These engines will operate on **structured data only**, without relying on AI in early stages.
 
 ---
 
 ## 🔌 API Platform (Backbone)
 
-Central API layer for all apps.
+The API platform will act as the central backbone.
 
-Provides:
+It will provide:
 
 * content APIs (Qur’an, Hadith, Tafsir)
 * learning APIs
@@ -184,7 +184,7 @@ Provides:
 
 ## 🧠 Knowledge Graph (Brain)
 
-Connects:
+The knowledge graph will connect:
 
 * Qur’an ↔ Hadith
 * Hadith ↔ Fiqh
@@ -197,7 +197,7 @@ Example:
 Patience → Ayahs → Hadith → Lessons → Actions
 ```
 
-Enables:
+It will enable:
 
 * intelligent search
 * recommendations
@@ -208,18 +208,81 @@ Enables:
 
 ## 🤖 Decision Assistant (Reasoning Layer)
 
-Provides:
+The decision assistant will provide:
 
 * halal/haram rulings
 * fiqh decisions
 * explanations with evidence
 * confidence based on references
 
-Works using:
+It will operate using:
 
 * Fiqh Engine
 * Halal Engine
 * Knowledge Graph
+
+---
+
+## 🧬 Personalization System
+
+Nizaam will adapt to each user based on:
+
+* habits and consistency
+* learning progress
+* goals and preferences
+
+This will enable:
+
+* personalized learning paths
+* smart recommendations
+* adaptive reminders
+
+---
+
+## 🧠 Recommendation Engine
+
+Nizaam will not only provide information — it will guide users.
+
+Based on behavior, it will suggest:
+
+* lessons to continue
+* habits to improve
+* duas and actions
+
+Example:
+
+Missing Fajr →
+Suggest sleep improvement →
+Provide dua →
+Recommend short lesson
+
+---
+
+## 🔐 Trust & Authenticity
+
+Nizaam will ensure reliability through:
+
+* verified sources (Qur’an, authentic Hadith)
+* reference-based explanations
+* authenticity scoring
+* scholar-backed validation (future)
+
+> No decision will be made without evidence.
+
+---
+
+## 🌍 Global & Multi-Language Support
+
+Nizaam will be designed for global use.
+
+It will support:
+
+* Arabic (primary)
+* Urdu
+* English
+* additional languages in future
+
+Content will be structured for easy expansion.
 
 ---
 
@@ -229,9 +292,9 @@ Works using:
 
 ## 🧭 1. Deen Companion (Core System)
 
-The heart of Nizaam.
+This will be the heart of Nizaam.
 
-A system to build **discipline using Islam**.
+A system designed to build **discipline using Islam**.
 
 ### Features
 
@@ -250,7 +313,7 @@ A system to build **discipline using Islam**.
 
 ## 🧠 2. Islamic Decision Assistant
 
-Helps users make **Islamic decisions with evidence**
+This system will help users make **Islamic decisions with evidence**.
 
 * rulings (halal / haram / mashbooh)
 * explanations
@@ -261,14 +324,14 @@ Helps users make **Islamic decisions with evidence**
 
 ## 🧪 3. Halal Scanner App
 
-Real-world product analysis system:
+This will be a real-world product analysis system.
 
 * scan labels (OCR)
 * extract ingredients
 * normalize & match
 * detect rulings
 
-Includes:
+It will include:
 
 * explanation system
 * multi-reference support
@@ -278,14 +341,14 @@ Includes:
 
 ## 🧠 4. Kids Learning App
 
-Interactive Islamic learning for children:
+An interactive Islamic learning platform for children.
 
 * simple explanations
 * quizzes
 * stories
 * daily learning tasks
 
-Connected with Decision Assistant for **question-based learning**
+It will be connected with the Decision Assistant for **question-based learning**.
 
 ---
 
@@ -297,7 +360,7 @@ A structured Islamic education system.
 
 ### 🎯 Purpose
 
-To guide users through a **clear learning journey**
+It will guide users through a **clear and structured learning journey**.
 
 ---
 
@@ -331,7 +394,7 @@ Path → Levels → Modules → Lessons → Tasks
 
 #### 2. Multi-System Integration
 
-Each lesson connects to:
+Each lesson will connect to:
 
 * Qur’an system
 * Hadith system
@@ -342,7 +405,7 @@ Each lesson connects to:
 
 #### 3. Learn → Apply → Reflect
 
-Each lesson includes:
+Each lesson will include:
 
 * understanding
 * real-life actions
@@ -373,7 +436,7 @@ Application
 
 #### 6. Deep Qur’an Integration
 
-Includes:
+Will include:
 
 * word-by-word breakdown
 * root (صرف)
@@ -389,11 +452,9 @@ Includes:
 
 ---
 
----
-
 ## 💬 6. Scholar Q&A Platform
 
-Provides:
+This platform will provide:
 
 * verified answers
 * scholar responses
@@ -403,20 +464,41 @@ Provides:
 
 ## 🕌 7. Masjid Management System
 
-Designed for real-world usage:
+This system will support:
 
 * prayer time management
 * announcements
 * events
-* community connection
+* community engagement
 
 ---
 
 ## 💰 8. Zakat System (Future)
 
+This system will include:
+
 * zakat calculation
 * asset tracking
 * nisab support
+
+---
+
+# 🔄 How Nizaam Will Work (User Flow)
+
+1. User will interact with an app (Deen Companion, Scanner, Learning)
+2. Request will go to API Platform
+3. Engines will process the request using structured data
+4. Knowledge Graph will provide context and relationships
+5. Decision Assistant will generate meaningful output
+6. Response will be returned with explanations and references
+
+Example:
+
+User scans a product →
+Ingredients extracted →
+Matched with database →
+Decision generated →
+Explanation + references shown
 
 ---
 
@@ -441,21 +523,25 @@ User → App → API → Engines → Database
 
 ---
 
-# 🧠 Philosophy Behind Nizaam
+# 💡 What Will Make Nizaam Different
 
-> Islam is not just knowledge.
-> It is a system for living.
+* Not a single app → a complete system
+* Data-first architecture
+* Knowledge graph-based intelligence
+* Evidence-based decisions
+* Learning + action combined
 
-Instead of:
+---
 
-* scattered apps
-* disconnected tools
+# 🛠️ Tech Stack (Planned)
 
-We build:
-
-* a unified system
-* structured life
-* meaningful progress
+* Node.js / Express
+* Next.js
+* MongoDB
+* PostgreSQL
+* Monorepo architecture
+* MediaProc (OCR & media processing)
+* Orbyt (automation engine)
 
 ---
 
@@ -480,6 +566,19 @@ We build:
 
 ---
 
+# 🤝 Contribution
+
+Nizaam will be developed as an open ecosystem.
+
+Future contributions may include:
+
+* datasets (Qur’an, Hadith, etc.)
+* APIs and backend systems
+* learning content
+* documentation
+
+---
+
 # 🤝 Vision
 
 Nizaam aims to become:
@@ -493,8 +592,8 @@ Nizaam aims to become:
 
 # 🌙 Closing
 
-> A structured life leads to consistency.
-> Consistency leads to discipline.
-> Discipline leads to success — in both dunya and akhirah.
+> A structured life will lead to consistency.
+> Consistency will lead to discipline.
+> Discipline will lead to success — in both dunya and akhirah.
 
-**Nizaam is built to help achieve that.**
+**Nizaam will be built to help achieve that.**
