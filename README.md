@@ -26,6 +26,23 @@ It will be a **complete system** that will connect:
 
 ---
 
+## ⚠️ Disclaimer
+
+Nizaam is currently in the planning and design phase.
+
+The architecture, features, and system components described in this document are part of an evolving proposal and may change during implementation.
+
+Decisions will be refined based on:
+
+* practical development constraints
+* real-world testing and feedback
+* scalability and performance considerations
+* scholarly guidance where applicable
+
+The core vision will remain the same, but the implementation details may be adjusted to ensure the system is reliable, useful, and aligned with its purpose.
+
+---
+
 ## 🎯 Purpose
 
 Today, Muslims rely on multiple disconnected tools:
