@@ -1,5 +1,12 @@
 # 🕌 Nizaam – Islamic Ecosystem
 
+![Status](https://img.shields.io/badge/status-in%20development-blue)
+![Architecture](https://img.shields.io/badge/architecture-modular-green)
+![Focus](https://img.shields.io/badge/focus-Islamic%20System-orange)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+---
+
 ## 📖 Introduction
 
 **Nizaam** is a unified Islamic ecosystem designed to help Muslims live a structured, disciplined, and conscious life based on the principles of Islam.
@@ -14,8 +21,7 @@ It is a **complete system** that connects:
 * Learning (structured Islamic education)
 * Real-world tools (scanner, masjid system, APIs)
 
-The goal is simple:
-
+> **Goal:**
 > Build a system where Islam is not separate from life, but becomes the foundation of it.
 
 ---
@@ -67,7 +73,7 @@ Everything revolves around:
 
 Nizaam follows a **data-first, modular architecture**:
 
-```
+```text
 External Data Sources
         ↓
 Bridges (Adapters & Transformers)
