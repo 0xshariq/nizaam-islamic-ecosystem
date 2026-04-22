@@ -8,9 +8,10 @@ It is not just a collection of apps.
 
 It is a **system** that connects:
 
-- Knowledge (Qur’an, Hadith, Tafsir)
-- Daily life (Salah, habits, discipline)
-- Tools (scanner, APIs, masjid system)
+* Knowledge (Qur’an, Hadith, Tafsir)
+* Daily life (discipline, habits, reflection)
+* Intelligence (decision-making, guidance)
+* Community (masjid & learning)
 
 The goal is simple:
 
@@ -20,26 +21,24 @@ The goal is simple:
 
 ## 🎯 Purpose
 
-Nizaam is built to solve a real problem:
+Today, Muslims use multiple disconnected tools:
 
-Today, Muslims use:
+* one app for Qur’an
+* another for prayer
+* another for learning
+* another for productivity
 
-- one app for Qur’an  
-- another for prayer  
-- another for learning  
-- another for productivity  
+This creates fragmentation.
 
-Everything is disconnected.
-
-**Nizaam brings everything into one system.**
+**Nizaam brings everything into one structured system.**
 
 It helps users:
 
-- stay consistent in Salah  
-- understand Qur’an deeply  
-- learn Islam in a structured way  
-- make better daily decisions (halal/haram)  
-- track and improve their lifestyle  
+* build discipline through Islam
+* understand Qur’an deeply
+* learn Islam step-by-step
+* make better daily decisions
+* improve their lifestyle in a meaningful way
 
 ---
 
@@ -47,28 +46,36 @@ It helps users:
 
 At the center of Nizaam is:
 
-> **A Salah-based life system**
+> **An Islamic Discipline System**
+
+A system that helps users:
+
+* fix bad habits
+* build consistency
+* align daily life with Deen
 
 Everything revolves around:
 
-- Salah (discipline)
-- Knowledge (Qur’an & Hadith)
-- Action (daily habits)
+* **Salah → Discipline**
+* **Knowledge → Understanding**
+* **Action → Lifestyle**
 
 ---
 
 ## 🏗️ Architecture Overview
 
-Nizaam is built as a **modular ecosystem**, not a single app.
+Nizaam is built as a modular ecosystem:
 
 ```
 Apps (Products)
      ↓
 API Platform
      ↓
+Bridges (Adapters & Transformers)
+     ↓
 Core + Knowledge Graph + Engines
      ↓
-Databases
+Databases (PostgreSQL + MongoDB)
 ```
 
 ---
@@ -77,181 +84,288 @@ Databases
 
 ---
 
-### 🧠 1. Knowledge Graph (Brain of the System)
+### 🧠 1. Knowledge Graph (Brain)
 
-The knowledge graph connects:
+Connects:
 
-- Qur’an
-- Hadith
-- Tafsir
-- Topics (e.g., patience, gratitude)
+* Qur’an
+* Hadith
+* Tafsir
+* Topics (patience, gratitude, etc.)
+* rulings & concepts
 
 Example:
 
-Patience → Ayahs → Hadith → Stories → Lessons
+Patience → Ayahs → Hadith → Lessons → Actions
 
-This enables:
+Enables:
 
-- smart search  
-- learning systems  
-- AI-ready features  
+* intelligent search
+* decision assistant
+* structured learning
+* future AI capabilities
 
 ---
 
 ### 📦 2. Ecosystem Core
 
-This is the foundation layer that contains:
+Foundation layer:
 
-- Qur’an schemas  
-- Hadith schemas  
-- Tafsir data  
-- Habit & Salah tracking  
-- shared logic  
+* Qur’an schemas (ayah, word, root, sarf, nahw)
+* Hadith schemas
+* Tafsir structures
+* halal dataset schemas
+* shared utilities
 
 ---
 
 ### 🔌 3. API Platform (Backbone)
 
-All apps rely on a unified API system.
+Unified API system for all apps.
 
-Includes APIs for:
+Includes:
 
-- Qur’an  
-- Hadith  
-- Tafsir  
-- Prayer times  
-- Zakat calculation  
-- Halal scanning  
-- Personal tracking  
+* Qur’an APIs (deep learning support)
+* Hadith APIs
+* Tafsir APIs
+* Halal engine APIs
+* Prayer time adapters
+* Zakat system APIs
+* user tracking APIs
 
 ---
 
-### ⚙️ 4. Engines (Reusable Systems)
+### 🔄 4. Bridges Layer
 
-These are platform-agnostic tools reused across the ecosystem:
+Handles:
 
-- Error Engine → error handling  
-- Orbyt → automation & scheduling  
-- MediaProc → media processing (OCR, audio, etc.)  
-- Billing Engine → API usage tracking  
+* external API normalization
+* OCR pipelines
+* data transformation
+* engine connections
+
+---
+
+### ⚙️ 5. Engines (Reusable Systems)
+
+* Error Engine → validation & correction
+* Orbyt → automation & scheduling
+* MediaProc → OCR, audio processing
+* Billing Engine → API usage tracking
 
 ---
 
 ## 📱 Products (Apps)
 
-These are user-facing applications built on top of the system.
+---
+
+### 🧭 1. **Deen Companion (Core System)**
+
+This is the heart of Nizaam.
+
+A system designed to help users **fix habits and build discipline using Islam**.
+
+#### 🎯 Purpose
+
+To transform daily life through structured Islamic practice.
+
+#### ⚙️ Features
+
+* Salah tracking
+* habit tracking
+* Qur’an recitation tracking
+* streaks & consistency
+
+#### 🔗 Built-in Systems (Sub-modules)
+
+* 📿 **Dua & Azkar Intelligence**
+
+  * context-based dhikr
+  * habit improvement support
+
+* 📊 **Islamic Life Analytics**
+
+  * weekly reports
+  * consistency tracking
+
+* 📓 **Personal Islamic Journal**
+
+  * daily reflection (Muhasabah)
+  * self-improvement tracking
 
 ---
 
-### 🕌 1. Salah-Based System (Core App)
+### 🧠 2. Islamic Decision Assistant
 
-A personal discipline system based on Salah.
+#### 🎯 Purpose
 
-Features:
+To help users make **Islamic decisions with evidence**
 
-- Salah tracking  
-- habit tracking  
-- Qur’an recitation tracking  
-- streaks and consistency  
-- daily performance insights  
+#### ⚙️ Features
 
----
-
-### 📖 2. Qur’an Learning Platform
-
-Helps users:
-
-- understand Qur’an deeply  
-- learn word-by-word  
-- track recitation and revision  
+* ask questions
+* get rulings (halal / haram / mashbooh)
+* explanation with references
+* confidence score based on evidence
 
 ---
 
-### 🧠 3. Kids Learning App
+### 🧪 3. Halal Scanner App
 
-A structured Islamic learning platform for children.
+#### 🎯 Purpose
 
-Features:
+To analyze real-world products and detect halal/haram
 
-- quizzes  
-- stories (from Qur’an & Hadith)  
-- daily learning tasks  
-- progress tracking  
+#### ⚙️ Features
 
----
+* scan product labels (OCR)
+* ingredient extraction
+* normalization + fuzzy matching
+* decision engine
 
-### 🧪 4. Halal Scanner App
+#### 🧠 Advanced
 
-Allows users to:
-
-- scan product labels  
-- detect haram or doubtful ingredients  
-- get explanations and reasoning  
-
----
-
-### 💰 5. Zakat & Sadaqah System (Future)
-
-- zakat calculation  
-- donation tracking  
-- transparency system  
+* explanation system
+* multiple references
+* evidence-based confidence
+* unknown ingredient handling
 
 ---
 
-### 🕌 6. Masjid Management System
+### 🧠 4. Kids Learning App
 
-Helps masjids manage:
+#### 🎯 Purpose
 
-- prayer times  
-- announcements  
-- events  
-- donations  
+To teach Islam to children in an engaging and structured way
+
+#### ⚙️ Features
+
+* quizzes
+* stories (Qur’an & Hadith)
+* daily tasks
+* progress tracking
 
 ---
 
-## 🔄 Data Flow
+### 🎓 5. Islamic Learning Path System
 
-User → App → API → Core / Graph / Engines → Database
+#### 🎯 Purpose
+
+To provide structured Islamic education
+
+#### ⚙️ Features
+
+* beginner → advanced paths
+* modules & lessons
+* progress tracking
+
+#### 🔗 Includes
+
+* 📖 **Qur’an Deep Learning Platform**
+
+  * word-by-word breakdown
+  * root (صرف)
+  * grammar (نحو)
+  * meanings & references
+
+---
+
+### 💬 6. Scholar Q&A Platform
+
+#### 🎯 Purpose
+
+To provide **verified Islamic answers**
+
+#### ⚙️ Features
+
+* ask questions
+* scholar responses
+* verified answers
+
+---
+
+### 🕌 7. Masjid Management System
+
+#### 🎯 Purpose
+
+To simplify masjid operations
+
+#### ⚙️ Features
+
+* prayer time management
+* announcements
+* events
+* digital notice board
+
+---
+
+### 💰 8. Zakat System (Future)
+
+#### 🎯 Purpose
+
+To calculate and manage zakat properly
+
+#### ⚙️ Features
+
+* zakat calculator
+* asset tracking
+* nisab integration
+
+---
+
+## 🧠 Example: Halal Engine Flow
+
+```
+Image → OCR → Clean → Extract Ingredients
+→ Normalize → Synonyms + Fuzzy Match
+→ Decision Engine → Explanation + Evidence
+```
+
+---
+
+## 📊 Data Flow
+
+```
+User → App → API → Bridges → Core / Graph / Engines → Database
+```
 
 ---
 
 ## 🧠 Philosophy Behind Nizaam
 
-Nizaam is built on a simple belief:
-
-> Islam is not just knowledge.  
+> Islam is not just knowledge.
 > It is a system for living.
 
 Instead of:
 
-- scattered apps  
-- disconnected tools  
+* scattered apps
+* disconnected tools
 
 We build:
 
-- a unified system  
-- structured life  
-- meaningful progress  
+* a unified system
+* structured life
+* meaningful progress
 
 ---
 
 ## 🚀 Development Approach
 
-The system is being built step by step:
-
-1. Core schemas  
-2. Knowledge graph  
-3. API platform  
-4. First product (Salah System)  
-5. Expansion into ecosystem  
+1. Core schemas
+2. Knowledge graph
+3. API platform
+4. Deen Companion (core system)
+5. Expand into ecosystem
 
 ---
 
 ## 📌 Current Focus
 
-- Designing schemas  
-- Building knowledge graph  
-- Creating API foundation  
+* schema design
+* data pipelines
+* halal engine
+* Qur’an deep learning system
+* API foundation
 
 ---
 
@@ -259,24 +373,17 @@ The system is being built step by step:
 
 Nizaam aims to become:
 
-- a personal Islamic system  
-- a learning platform  
-- a community tool  
-- a foundation for future Islamic technology  
-
----
-
-## 📎 Note
-
-This project is being built with a long-term vision.  
-Features will be added gradually with focus on quality and real-world usefulness.
+* a personal Islamic life system
+* a structured learning platform
+* a trusted decision system
+* a foundation for future Islamic technology
 
 ---
 
 ## 🌙 Closing
 
-> A structured life leads to consistency.  
-> Consistency leads to discipline.  
+> A structured life leads to consistency.
+> Consistency leads to discipline.
 > Discipline leads to success — in both dunya and akhirah.
 
 **Nizaam is built to help achieve that.**
