@@ -522,8 +522,7 @@ Explanation + references shown
 # 🧠 Example: Halal Engine Flow
 
 ```
-Image → OCR → Extract → Normalize
-→ Match → Decision → Explanation
+Image → OCR → Extract → Normalize → Match → Decision → Explanation
 ```
 
 ---
@@ -558,7 +557,7 @@ User → App → API → Engines → Database
 * PostgreSQL
 * Monorepo architecture
 * MediaProc (OCR & media processing)
-* Orbyt (automation engine)
+* Orbyt (automation engine) 
 
 ---
 
