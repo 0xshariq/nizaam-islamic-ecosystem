@@ -649,42 +649,198 @@ It is about:
 
 ## 🧠 2. Islamic Decision Assistant
 
-This system will help users make **Islamic decisions with evidence**.
+This system helps users make daily decisions based on Islamic guidance.
 
-* rulings (halal / haram / mashbooh)
-* explanations
-* references
-* confidence scoring
+Instead of confusion, it provides **clear answers with reasons**.
+
+---
+
+### 🎯 Purpose
+
+To help users:
+
+- know what is halal, haram, or doubtful  
+- understand *why* something is allowed or not  
+- make better decisions in daily life  
+
+---
+
+### 🔄 How It Works
+
+User asks a question or selects an item →
+
+System checks:
+
+- Qur’an  
+- Hadith  
+- Fiqh rules  
+
+Then provides:
+
+- ruling  
+- explanation  
+- references  
+
+---
+
+### 📊 Features
+
+- halal / haram / mashbooh classification  
+- clear explanation for every decision  
+- references from Qur’an and Hadith  
+- confidence level based on available evidence  
+
+---
+
+### 🧠 What Makes It Different
+
+- does not just give answers  
+- explains reasoning  
+- shows sources  
+
+---
+
+### 🎯 Goal
+
+> Help users make decisions with clarity, not confusion.
 
 ---
 
 ## 🧪 3. Halal Scanner App
 
-This will be a real-world product analysis system.
+This system helps users check real-world products.
 
-* scan labels (OCR)
-* extract ingredients
-* normalize & match
-* detect rulings
+Users can scan product labels and instantly understand if they are halal or not, along with important health-related insights.
 
-It will include:
+---
 
-* explanation system
-* multi-reference support
-* unknown ingredient handling
+### 🎯 Purpose
+
+To help users:
+
+- identify halal and haram ingredients  
+- understand what they are consuming  
+- avoid doubtful products  
+- evaluate basic nutritional quality  
+
+---
+
+### 🔄 How It Works
+
+Scan product →
+
+- extract ingredients (using OCR)  
+- extract nutritional table  
+- clean and organize data  
+- match ingredients with database  
+- analyze nutritional values  
+- generate final result  
+
+---
+
+### 📊 Features
+
+---
+
+#### 🧾 Ingredient Analysis
+
+- ingredient detection from images  
+- halal / haram / mashbooh classification  
+- explanation for each ingredient  
+- support for unknown ingredients  
+- confidence score  
+
+---
+
+#### 🧪 Nutritional Table Analysis
+
+- extract nutritional values (calories, fat, sugar, etc.)  
+- evaluate overall nutritional quality  
+- highlight excessive or risky values  
+- simple health rating  
+
+---
+
+#### 📖 Explanation System
+
+- explain why an ingredient is halal or haram  
+- provide references (Qur’an, Hadith, or research)  
+- show reasoning clearly  
+
+---
+
+#### ⚠️ Health Insights
+
+- benefits of halal ingredients  
+- possible side effects  
+- warnings for excessive consumption  
+
+---
+
+### 🧠 What Makes It Different
+
+- combines **religious guidance + health awareness**  
+- not just ingredient checking  
+- provides full product understanding  
+
+---
+
+### 🎯 Goal
+
+> Help users make safe, informed, and conscious choices in real life.
 
 ---
 
 ## 🧠 4. Kids Learning App
 
-An interactive Islamic learning platform for children.
+An interactive Islamic learning system designed for children.
 
-* simple explanations
-* quizzes
-* stories
-* daily learning tasks
+It focuses on **simple, engaging, and easy-to-understand learning**.
 
-It will be connected with the Decision Assistant for **question-based learning**.
+---
+
+### 🎯 Purpose
+
+To help children:
+
+- learn Islam in a simple way  
+- build interest in learning  
+- understand basic concepts early  
+
+---
+
+### 🔄 How It Works
+
+Learning is done through:
+
+- small lessons  
+- quizzes  
+- stories  
+- daily activities  
+
+---
+
+### 📊 Features
+
+- simple explanations  
+- interactive quizzes  
+- Islamic stories  
+- daily learning tasks  
+
+---
+
+### 🔗 Integration
+
+Connected with the Decision Assistant:
+
+- children can ask questions  
+- system gives simple answers  
+
+---
+
+### 🎯 Goal
+
+> Make Islamic learning easy, engaging, and enjoyable for children.
 
 ---
 
@@ -706,6 +862,7 @@ It will guide users through a **clear and structured learning journey**.
 Path → Levels → Modules → Lessons → Tasks
 ```
 
+
 ---
 
 ### 📚 Subjects Covered
@@ -723,8 +880,8 @@ Path → Levels → Modules → Lessons → Tasks
 
 #### 1. Structured Learning
 
-* Beginner → Intermediate → Advanced
-* guided progression
+* Beginner → Intermediate → Advanced  
+* guided progression  
 
 ---
 
@@ -732,10 +889,10 @@ Path → Levels → Modules → Lessons → Tasks
 
 Each lesson will connect to:
 
-* Qur’an system
-* Hadith system
-* Fiqh system
-* Tafsir system
+* Qur’an system  
+* Hadith system  
+* Fiqh system  
+* Tafsir system  
 
 ---
 
@@ -743,30 +900,26 @@ Each lesson will connect to:
 
 Each lesson will include:
 
-* understanding
-* real-life actions
-* reflection
+* understanding  
+* real-life actions  
+* reflection  
 
 ---
 
 #### 4. Daily Learning Mode
 
-* 1 lesson per day
-* consistent growth
+* 1 lesson per day  
+* consistent growth  
 
 ---
 
 #### 5. Cross-System Learning
 
 Example:
+```
+Salah Lesson → Qur’an Ayah → Hadith → Fiqh Ruling → Application
+```
 
-```
-Salah Lesson →
-Qur’an Ayah →
-Hadith →
-Fiqh Ruling →
-Application
-```
 
 ---
 
@@ -774,17 +927,17 @@ Application
 
 Will include:
 
-* word-by-word breakdown
-* root (صرف)
-* grammar (نحو)
+* word-by-word breakdown  
+* root (صرف)  
+* grammar (نحو)  
 
 ---
 
 #### 7. Progress Tracking
 
-* completed lessons
-* streaks
-* levels
+* completed lessons  
+* streaks  
+* levels  
 
 ---
 
@@ -792,9 +945,9 @@ Will include:
 
 The Islamic Learning Path System is not just a collection of lessons.
 
-It is a **structured journey** designed to take a person from basic understanding to deep knowledge, step by step.
+It is a **step-by-step journey** that helps a person move from basic understanding to deeper knowledge.
 
-Instead of random learning, the system ensures:
+Instead of learning randomly, the system ensures:
 
 - what to learn  
 - when to learn  
@@ -805,11 +958,12 @@ Instead of random learning, the system ensures:
 ### 🎯 Learning Flow
 
 Each topic follows a clear flow:
-
 ```
 Understand → Connect → Apply → Reflect
 ```
 
+
+Learning is designed to be simple and gradual, so users can stay consistent without feeling overwhelmed.
 
 ---
 
@@ -914,7 +1068,7 @@ This system focuses on beliefs.
 - understanding of Tawheed  
 - attributes of Allah  
 - core Islamic beliefs  
-- clarification of misconceptions  
+- clearing common misunderstandings  
 
 ### Goal:
 
@@ -936,7 +1090,7 @@ This system helps users understand the language of the Qur’an.
 
 ### Goal:
 
-> Enable users to understand Arabic directly, without relying only on translations.
+> Help users slowly start understanding Arabic directly, without relying only on translations.
 
 ---
 
@@ -947,7 +1101,6 @@ Instead of learning each subject separately, Nizaam connects them.
 ---
 
 ### Example:
-
 ```
 Learning Salah →
 
@@ -959,6 +1112,7 @@ Arabic → word-level understanding
 Aqeedah → purpose of worship
 ```
 
+
 ---
 
 ### Result:
@@ -969,39 +1123,135 @@ Aqeedah → purpose of worship
 
 ---
 
-> This is what makes the system different:
+> This is what makes the system different:  
 > It teaches Islam as a **complete, connected way of life**, not separate topics.
 
 ---
 
 ## 💬 6. Scholar Q&A Platform
 
-This platform will provide:
+This platform connects users with verified Islamic knowledge.
 
-* verified answers
-* scholar responses
-* authentic guidance
+It provides answers based on authentic sources and scholarly guidance.
+
+---
+
+### 🎯 Purpose
+
+To help users:
+
+- get reliable answers  
+- clear doubts  
+- understand complex topics  
+
+---
+
+### 🔄 How It Works
+
+User asks a question →
+
+- system searches existing answers  
+- or routes to scholars (future)  
+
+---
+
+### 📊 Features
+
+- verified answers  
+- reference-based responses  
+- topic-based search  
+
+---
+
+### 🧠 What Makes It Different
+
+- focused on authenticity  
+- avoids unverified information  
+
+---
+
+### 🎯 Goal
+
+> Provide trusted and reliable Islamic guidance.
 
 ---
 
 ## 🕌 7. Masjid Management System
 
-This system will support:
+This system helps manage masjid activities and communication.
 
-* prayer time management
-* announcements
-* events
-* community engagement
+It connects the community with the masjid in a simple and organized way.
+
+---
+
+### 🎯 Purpose
+
+To help masjids:
+
+- manage daily operations  
+- communicate with the community  
+- organize events  
+
+---
+
+### 📊 Features
+
+- prayer time management  
+- announcements  
+- event scheduling  
+- community updates  
+
+---
+
+### 🔗 Integration
+
+- connected with user apps  
+- users receive updates and reminders  
+
+---
+
+### 🎯 Goal
+
+> Strengthen the connection between masjid and community.
 
 ---
 
 ## 💰 8. Zakat System (Future)
 
-This system will include:
+This system will help users calculate and manage zakat properly.
 
-* zakat calculation
-* asset tracking
-* nisab support
+---
+
+### 🎯 Purpose
+
+To help users:
+
+- calculate zakat correctly  
+- understand their obligations  
+- manage assets  
+
+---
+
+### 📊 Features
+
+- zakat calculation  
+- asset tracking  
+- nisab calculation  
+- reminders  
+
+---
+
+### 🧠 What Makes It Important
+
+- reduces mistakes  
+- ensures proper calculation  
+- simplifies complex rules  
+
+---
+
+### 🎯 Goal
+
+> Help users fulfill their zakat accurately and confidently.
 
 ---
 
