@@ -120,7 +120,7 @@ Initially, Nizaam will rely on:
 
 * External APIs (Qur’an, Hadith, Prayer Times)
 * Public datasets
-* Internal JSON collections
+* Internal data collections (JSON)
 
 Over time:
 
@@ -191,7 +191,7 @@ These engines work behind the scenes to understand user queries, process data, a
 
 Beyond core processing engines, Nizaam will include a set of advanced intelligence engines responsible for transforming structured data into meaningful, contextual, and explainable outputs.
 
-These engines will work together to simulate intelligent behavior without relying on AI in early stages.
+These engines will work together to provide intelligent-like behavior without relying on AI in early stages.
 
 ---
 
@@ -1107,11 +1107,11 @@ Instead of learning each subject separately, Nizaam connects them.
 ```
 Learning Salah →
 
-Qur’an → relevant ayah
-Hadith → how Prophet ﷺ prayed
-Fiqh → rules of Salah
-Tafsir → deeper meaning
-Arabic → word-level understanding
+Qur’an  → relevant ayah
+Hadith  → how Prophet ﷺ prayed
+Fiqh    → rules of Salah
+Tafsir  → deeper meaning
+Arabic  → word-level understanding
 Aqeedah → purpose of worship
 ```
 
