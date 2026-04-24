@@ -185,6 +185,101 @@ These engines will operate on **structured data only**, without relying on AI in
 
 ---
 
+## 🧠 Advanced Intelligence Engines
+
+Beyond core processing engines, Nizaam will include a set of advanced intelligence engines responsible for transforming structured data into meaningful, contextual, and explainable outputs.
+
+These engines will work together to simulate intelligent behavior without relying on AI in early stages.
+
+---
+
+### 🔍 Query Engine
+
+Responsible for:
+
+- parsing user queries
+- detecting intent (learning, decision, exploration, search)
+- extracting entities
+- routing requests to appropriate systems
+
+---
+
+### 🧠 Context Engine
+
+Responsible for:
+
+- resolving meaning based on context
+- selecting the correct interpretation of words and phrases
+- using linguistic signals (Arabic engine) + semantic signals (knowledge graph)
+
+---
+
+### 📊 Ranking Engine
+
+Responsible for:
+
+- prioritizing results based on:
+  - relevance
+  - authenticity (Qur’an > Hadith > others)
+  - confidence
+  - contextual accuracy
+
+---
+
+### 📖 Explanation Engine
+
+Responsible for:
+
+- generating reasoning behind outputs
+- connecting results with Qur’an, Hadith, Fiqh, or research references
+- ensuring transparency in decisions
+
+---
+
+### 🧾 Response Builder
+
+Responsible for:
+
+- constructing the final response structure
+- separating:
+  - summary
+  - explanation
+  - references
+- ensuring clarity and consistency in outputs
+
+---
+
+> These engines ensure that Nizaam does not just return answers, but provides **understandable and trustworthy guidance**.
+
+---
+
+## 🔤 Arabic Linguistic Engine
+
+The Arabic Engine will act as the linguistic backbone of Nizaam.
+
+It will provide:
+
+- text normalization
+- tokenization
+- root extraction (صرف)
+- morphology detection
+- grammar analysis (نحو)
+- i‘rab detection
+- contextual meaning resolution
+
+This engine will be used across:
+
+- Qur’an system
+- Hadith system
+- Tafsir system
+- Fiqh system
+
+It ensures:
+
+> accurate understanding of Arabic text using rule-based linguistic processing.
+
+---
+
 ## 🔌 API Platform (Backbone)
 
 The API platform will act as the central backbone.
@@ -201,25 +296,46 @@ It will provide:
 
 ## 🧠 Knowledge Graph (Brain)
 
-The knowledge graph will connect:
+The knowledge graph will connect both **semantic and linguistic layers**.
 
-* Qur’an ↔ Hadith
-* Hadith ↔ Fiqh
-* Topics ↔ Lessons
-* Concepts ↔ Applications
+---
 
-Example:
+### 🔗 Semantic Layer
 
+- Qur’an ↔ Hadith
+- Hadith ↔ Fiqh
+- Topics ↔ Lessons
+- Concepts ↔ Applications
+
+---
+
+### 🔤 Linguistic Layer
+
+- Word → Root → Meaning
+- Word → Ayah / Hadith
+- Root → Related words
+
+---
+
+### Example
 ```
 Patience → Ayahs → Hadith → Lessons → Actions
+كتب → Root → Meaning → Ayahs → Fiqh implication
 ```
 
-It will enable:
+---
 
-* intelligent search
-* recommendations
-* contextual learning
-* decision support
+### Enables
+
+- intelligent search  
+- contextual understanding  
+- root-based exploration  
+- cross-system learning  
+- decision support  
+
+---
+
+> The knowledge graph will act as the central intelligence layer connecting all systems.
 
 ---
 
@@ -237,6 +353,41 @@ It will operate using:
 * Fiqh Engine
 * Halal Engine
 * Knowledge Graph
+
+---
+
+## ⚡ Caching & Performance Layer
+
+To ensure fast and scalable performance, Nizaam will include an in-memory caching layer (without database dependency in early stages).
+
+---
+
+### Cache Types
+
+- Query Cache → stores full responses
+- Arabic Cache → stores word-level analysis
+- Graph Cache → stores relationships and links
+- Decision Cache → stores rulings and results
+
+---
+
+### Strategy
+
+- time-based expiration (TTL)
+- normalized cache keys
+- multi-layer caching
+
+---
+
+### Benefits
+
+- faster response times
+- reduced computation load
+- improved scalability
+
+---
+
+> This layer ensures the system remains efficient while handling complex processing pipelines.
 
 ---
 
@@ -285,6 +436,56 @@ Nizaam will ensure reliability through:
 * scholar-backed validation (future)
 
 > No decision will be made without evidence.
+
+---
+
+### 📜 Source Hierarchy
+
+Nizaam will prioritize sources as follows:
+
+1. Qur’an (primary source)
+2. Authentic Hadith
+3. Fiqh (scholarly interpretations)
+4. Verified research (supporting information only)
+
+> Research data will never override religious rulings.
+
+---
+
+### 🔍 Transparency
+
+- every decision will include references
+- uncertainty will be explicitly shown
+- multiple opinions will be presented when applicable
+
+---
+
+## 🔐 Data Integrity & Security
+
+Nizaam will ensure:
+
+- immutable handling of Qur’an text
+- verified Hadith sources
+- traceable references for all outputs
+- strict separation between data and interpretation
+
+> No transformation will alter original Islamic texts.
+
+---
+
+## ⚠️ Limitations
+
+In early stages, Nizaam will:
+
+- rely partially on external datasets
+- not cover all edge-case fiqh scenarios
+- use rule-based logic instead of AI
+
+The system will improve over time with:
+
+- stronger datasets
+- expanded coverage
+- scholarly validation
 
 ---
 
@@ -536,6 +737,33 @@ User → App → API → Engines → Database
                      ↑
              External Data Sources
 ```
+
+---
+
+## 🧠 Intelligent Query Flow
+
+Nizaam will process user queries through a structured pipeline:
+
+```
+User Query
+→ Query Engine
+→ Arabic Engine (if needed)
+→ Context Engine
+→ Knowledge Graph
+→ Decision Assistant (if required)
+→ Ranking Engine
+→ Explanation Engine
+→ Response Builder
+→ Final Output
+```
+
+
+This ensures:
+
+- accurate understanding  
+- contextual reasoning  
+- evidence-based answers  
+- clear explanations  
 
 ---
 
