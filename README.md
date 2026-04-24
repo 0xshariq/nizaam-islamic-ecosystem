@@ -320,7 +320,7 @@ The knowledge graph will connect both **semantic and linguistic layers**.
 ### Example
 ```
 Patience → Ayahs → Hadith → Lessons → Actions
-كتب → Root → Meaning → Ayahs → Fiqh implication
+كتب → Root → Meaning → Ayahs → Fiqh implications
 ```
 
 ---
