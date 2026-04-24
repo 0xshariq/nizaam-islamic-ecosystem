@@ -185,7 +185,9 @@ These engines will operate on **structured data only**, without relying on AI in
 
 ---
 
-## 🧠 Advanced Intelligence Engines
+### 🧠 Advanced Intelligence Engines
+
+These engines work behind the scenes to understand user queries, process data, and generate meaningful results.
 
 Beyond core processing engines, Nizaam will include a set of advanced intelligence engines responsible for transforming structured data into meaningful, contextual, and explainable outputs.
 
