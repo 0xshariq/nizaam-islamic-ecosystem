@@ -86,7 +86,7 @@ Everything will revolve around:
 
 ---
 
-# 🏗️ Architecture Overview (Refined)
+## 🏗️ Architecture Overview (Refined)
 
 Nizaam will follow a **data-first, modular architecture**:
 
@@ -199,10 +199,10 @@ These engines will work together to simulate intelligent behavior without relyin
 
 Responsible for:
 
-- parsing user queries
-- detecting intent (learning, decision, exploration, search)
-- extracting entities
-- routing requests to appropriate systems
+* parsing user queries
+* detecting intent (learning, decision, exploration, search)
+* extracting entities
+* routing requests to appropriate systems
 
 ---
 
@@ -210,9 +210,9 @@ Responsible for:
 
 Responsible for:
 
-- resolving meaning based on context
-- selecting the correct interpretation of words and phrases
-- using linguistic signals (Arabic engine) + semantic signals (knowledge graph)
+* resolving meaning based on context
+* selecting the correct interpretation of words and phrases
+* using linguistic signals (Arabic engine) + semantic signals (knowledge graph)
 
 ---
 
@@ -220,11 +220,11 @@ Responsible for:
 
 Responsible for:
 
-- prioritizing results based on:
-  - relevance
-  - authenticity (Qur’an > Hadith > others)
-  - confidence
-  - contextual accuracy
+* prioritizing results based on:
+  * relevance
+  * authenticity (Qur’an > Hadith > others)
+  * confidence
+  * contextual accuracy
 
 ---
 
@@ -232,9 +232,9 @@ Responsible for:
 
 Responsible for:
 
-- generating reasoning behind outputs
-- connecting results with Qur’an, Hadith, Fiqh, or research references
-- ensuring transparency in decisions
+* generating reasoning behind outputs
+* connecting results with Qur’an, Hadith, Fiqh, or research references
+* ensuring transparency in decisions
 
 ---
 
@@ -242,12 +242,12 @@ Responsible for:
 
 Responsible for:
 
-- constructing the final response structure
-- separating:
-  - summary
-  - explanation
-  - references
-- ensuring clarity and consistency in outputs
+* constructing the final response structure
+* separating:
+  * summary
+  * explanation
+  * references
+* ensuring clarity and consistency in outputs
 
 ---
 
@@ -261,20 +261,20 @@ The Arabic Engine will act as the linguistic backbone of Nizaam.
 
 It will provide:
 
-- text normalization
-- tokenization
-- root extraction (صرف)
-- morphology detection
-- grammar analysis (نحو)
-- i‘rab detection
-- contextual meaning resolution
+* text normalization
+* tokenization
+* root extraction (صرف)
+* morphology detection
+* grammar analysis (نحو)
+* i‘rab detection
+* contextual meaning resolution
 
 This engine will be used across:
 
-- Qur’an system
-- Hadith system
-- Tafsir system
-- Fiqh system
+* Qur’an system
+* Hadith system
+* Tafsir system
+* Fiqh system
 
 It ensures:
 
@@ -304,22 +304,23 @@ The knowledge graph will connect both **semantic and linguistic layers**.
 
 ### 🔗 Semantic Layer
 
-- Qur’an ↔ Hadith
-- Hadith ↔ Fiqh
-- Topics ↔ Lessons
-- Concepts ↔ Applications
+* Qur’an ↔ Hadith
+* Hadith ↔ Fiqh
+* Topics ↔ Lessons
+* Concepts ↔ Applications
 
 ---
 
 ### 🔤 Linguistic Layer
 
-- Word → Root → Meaning
-- Word → Ayah / Hadith
-- Root → Related words
+* Word → Root → Meaning
+* Word → Ayah / Hadith
+* Root → Related words
 
 ---
 
 ### Example
+
 ```
 Patience → Ayahs → Hadith → Lessons → Actions
 كتب → Root → Meaning → Ayahs → Fiqh implications
@@ -329,11 +330,11 @@ Patience → Ayahs → Hadith → Lessons → Actions
 
 ### Enables
 
-- intelligent search  
-- contextual understanding  
-- root-based exploration  
-- cross-system learning  
-- decision support  
+* intelligent search  
+* contextual understanding  
+* root-based exploration  
+* cross-system learning  
+* decision support  
 
 ---
 
@@ -366,26 +367,26 @@ To ensure fast and scalable performance, Nizaam will include an in-memory cachin
 
 ### Cache Types
 
-- Query Cache → stores full responses
-- Arabic Cache → stores word-level analysis
-- Graph Cache → stores relationships and links
-- Decision Cache → stores rulings and results
+* Query Cache → stores full responses
+* Arabic Cache → stores word-level analysis
+* Graph Cache → stores relationships and links
+* Decision Cache → stores rulings and results
 
 ---
 
 ### Strategy
 
-- time-based expiration (TTL)
-- normalized cache keys
-- multi-layer caching
+* time-based expiration (TTL)
+* normalized cache keys
+* multi-layer caching
 
 ---
 
 ### Benefits
 
-- faster response times
-- reduced computation load
-- improved scalability
+* faster response times
+* reduced computation load
+* improved scalability
 
 ---
 
@@ -456,9 +457,9 @@ Nizaam will prioritize sources as follows:
 
 ### 🔍 Transparency
 
-- every decision will include references
-- uncertainty will be explicitly shown
-- multiple opinions will be presented when applicable
+* every decision will include references
+* uncertainty will be explicitly shown
+* multiple opinions will be presented when applicable
 
 ---
 
@@ -466,10 +467,10 @@ Nizaam will prioritize sources as follows:
 
 Nizaam will ensure:
 
-- immutable handling of Qur’an text
-- verified Hadith sources
-- traceable references for all outputs
-- strict separation between data and interpretation
+* immutable handling of Qur’an text
+* verified Hadith sources
+* traceable references for all outputs
+* strict separation between data and interpretation
 
 > No transformation will alter original Islamic texts.
 
@@ -479,15 +480,15 @@ Nizaam will ensure:
 
 In early stages, Nizaam will:
 
-- rely partially on external datasets
-- not cover all edge-case fiqh scenarios
-- use rule-based logic instead of AI
+* rely partially on external datasets
+* not cover all edge-case fiqh scenarios
+* use rule-based logic instead of AI
 
 The system will improve over time with:
 
-- stronger datasets
-- expanded coverage
-- scholarly validation
+* stronger datasets
+* expanded coverage
+* scholarly validation
 
 ---
 
@@ -524,10 +525,10 @@ It is a **personal Islamic life system** designed to help a person improve their
 
 To help users:
 
-- build consistency in Salah  
-- fix bad habits  
-- develop discipline  
-- stay connected with Deen in daily life  
+* build consistency in Salah  
+* fix bad habits  
+* develop discipline  
+* stay connected with Deen in daily life  
 
 ---
 
@@ -537,9 +538,9 @@ Most apps only track actions.
 
 Deen Companion will:
 
-- guide users  
-- remind them with purpose  
-- help them improve step by step  
+* guide users  
+* remind them with purpose  
+* help them improve step by step  
 
 It focuses on:
 
@@ -552,6 +553,7 @@ It focuses on:
 It observes daily behavior and gives simple guidance.
 
 Example:
+
 ```
 Missed Fajr →
 
@@ -559,7 +561,6 @@ suggest better sleep timing
 show relevant dua
 give small actionable step
 ```
-
 
 ---
 
@@ -569,33 +570,33 @@ give small actionable step
 
 #### 🕌 Salah Tracking
 
-- track daily prayers  
-- consistency tracking  
-- identify missed patterns  
+* track daily prayers  
+* consistency tracking  
+* identify missed patterns  
 
 ---
 
 #### 🔁 Habit Building
 
-- build good habits (Qur’an, dhikr, discipline)  
-- reduce bad habits gradually  
-- track progress over time  
+* build good habits (Qur’an, dhikr, discipline)  
+* reduce bad habits gradually  
+* track progress over time  
 
 ---
 
 #### 📖 Qur’an Connection
 
-- track recitation  
-- encourage daily reading  
-- connect with learning system  
+* track recitation  
+* encourage daily reading  
+* connect with learning system  
 
 ---
 
 #### 📈 Daily Performance Insights
 
-- simple feedback on daily actions  
-- show improvement areas  
-- motivate consistency  
+* simple feedback on daily actions  
+* show improvement areas  
+* motivate consistency  
 
 ---
 
@@ -605,25 +606,25 @@ give small actionable step
 
 #### 📿 Dua & Azkar Intelligence
 
-- suggest duas based on situation  
-- daily azkar reminders  
-- connect duas with real-life problems  
+* suggest duas based on situation  
+* daily azkar reminders  
+* connect duas with real-life problems  
 
 ---
 
 #### 📊 Islamic Life Analytics
 
-- track overall lifestyle  
-- show patterns (sleep, salah, habits)  
-- highlight areas to improve  
+* track overall lifestyle  
+* show patterns (sleep, salah, habits)  
+* highlight areas to improve  
 
 ---
 
 #### 📓 Personal Islamic Journal
 
-- daily reflections  
-- track thoughts and struggles  
-- connect learning with personal life  
+* daily reflections  
+* track thoughts and struggles  
+* connect learning with personal life  
 
 ---
 
@@ -639,9 +640,9 @@ Deen Companion is not just about tracking actions.
 
 It is about:
 
-- understanding yourself  
-- improving step by step  
-- living Islam in daily life  
+* understanding yourself  
+* improving step by step  
+* living Islam in daily life  
 
 ---
 
@@ -661,9 +662,9 @@ Instead of confusion, it provides **clear answers with reasons**.
 
 To help users:
 
-- know what is halal, haram, or doubtful  
-- understand *why* something is allowed or not  
-- make better decisions in daily life  
+* know what is halal, haram, or doubtful  
+* understand *why* something is allowed or not  
+* make better decisions in daily life  
 
 ---
 
@@ -673,32 +674,32 @@ User asks a question or selects an item →
 
 System checks:
 
-- Qur’an  
-- Hadith  
-- Fiqh rules  
+* Qur’an  
+* Hadith  
+* Fiqh rules  
 
 Then provides:
 
-- ruling  
-- explanation  
-- references  
+* ruling  
+* explanation  
+* references  
 
 ---
 
 ### 📊 Features
 
-- halal / haram / mashbooh classification  
-- clear explanation for every decision  
-- references from Qur’an and Hadith  
-- confidence level based on available evidence  
+* halal / haram / mashbooh classification  
+* clear explanation for every decision  
+* references from Qur’an and Hadith  
+* confidence level based on available evidence  
 
 ---
 
 ### 🧠 What Makes It Different
 
-- does not just give answers  
-- explains reasoning  
-- shows sources  
+* does not just give answers  
+* explains reasoning  
+* shows sources  
 
 ---
 
@@ -720,10 +721,10 @@ Users can scan product labels and instantly understand if they are halal or not,
 
 To help users:
 
-- identify halal and haram ingredients  
-- understand what they are consuming  
-- avoid doubtful products  
-- evaluate basic nutritional quality  
+* identify halal and haram ingredients  
+* understand what they are consuming  
+* avoid doubtful products  
+* evaluate basic nutritional quality  
 
 ---
 
@@ -731,12 +732,12 @@ To help users:
 
 Scan product →
 
-- extract ingredients (using OCR)  
-- extract nutritional table  
-- clean and organize data  
-- match ingredients with database  
-- analyze nutritional values  
-- generate final result  
+* extract ingredients (using OCR)  
+* extract nutritional table  
+* clean and organize data  
+* match ingredients with database  
+* analyze nutritional values  
+* generate final result  
 
 ---
 
@@ -746,44 +747,44 @@ Scan product →
 
 #### 🧾 Ingredient Analysis
 
-- ingredient detection from images  
-- halal / haram / mashbooh classification  
-- explanation for each ingredient  
-- support for unknown ingredients  
-- confidence score  
+* ingredient detection from images  
+* halal / haram / mashbooh classification  
+* explanation for each ingredient  
+* support for unknown ingredients  
+* confidence score  
 
 ---
 
 #### 🧪 Nutritional Table Analysis
 
-- extract nutritional values (calories, fat, sugar, etc.)  
-- evaluate overall nutritional quality  
-- highlight excessive or risky values  
-- simple health rating  
+* extract nutritional values (calories, fat, sugar, etc.)  
+* evaluate overall nutritional quality  
+* highlight excessive or risky values  
+* simple health rating  
 
 ---
 
 #### 📖 Explanation System
 
-- explain why an ingredient is halal or haram  
-- provide references (Qur’an, Hadith, or research)  
-- show reasoning clearly  
+* explain why an ingredient is halal or haram  
+* provide references (Qur’an, Hadith, or research)  
+* show reasoning clearly  
 
 ---
 
 #### ⚠️ Health Insights
 
-- benefits of halal ingredients  
-- possible side effects  
-- warnings for excessive consumption  
+* benefits of halal ingredients  
+* possible side effects  
+* warnings for excessive consumption  
 
 ---
 
 ### 🧠 What Makes It Different
 
-- combines **religious guidance + health awareness**  
-- not just ingredient checking  
-- provides full product understanding  
+* combines **religious guidance + health awareness**  
+* not just ingredient checking  
+* provides full product understanding  
 
 ---
 
@@ -805,9 +806,9 @@ It focuses on **simple, engaging, and easy-to-understand learning**.
 
 To help children:
 
-- learn Islam in a simple way  
-- build interest in learning  
-- understand basic concepts early  
+* learn Islam in a simple way  
+* build interest in learning  
+* understand basic concepts early  
 
 ---
 
@@ -815,19 +816,19 @@ To help children:
 
 Learning is done through:
 
-- small lessons  
-- quizzes  
-- stories  
-- daily activities  
+* small lessons  
+* quizzes  
+* stories  
+* daily activities  
 
 ---
 
 ### 📊 Features
 
-- simple explanations  
-- interactive quizzes  
-- Islamic stories  
-- daily learning tasks  
+* simple explanations  
+* interactive quizzes  
+* Islamic stories  
+* daily learning tasks  
 
 ---
 
@@ -835,8 +836,8 @@ Learning is done through:
 
 Connected with the Decision Assistant:
 
-- children can ask questions  
-- system gives simple answers  
+* children can ask questions  
+* system gives simple answers  
 
 ---
 
@@ -863,7 +864,6 @@ It will guide users through a **clear and structured learning journey**.
 ```
 Path → Levels → Modules → Lessons → Tasks
 ```
-
 
 ---
 
@@ -918,10 +918,10 @@ Each lesson will include:
 #### 5. Cross-System Learning
 
 Example:
+
 ```
 Salah Lesson → Qur’an Ayah → Hadith → Fiqh Ruling → Application
 ```
-
 
 ---
 
@@ -951,19 +951,19 @@ It is a **step-by-step journey** that helps a person move from basic understandi
 
 Instead of learning randomly, the system ensures:
 
-- what to learn  
-- when to learn  
-- how to apply it  
+* what to learn  
+* when to learn  
+* how to apply it  
 
 ---
 
 ### 🎯 Learning Flow
 
 Each topic follows a clear flow:
+
 ```
 Understand → Connect → Apply → Reflect
 ```
-
 
 Learning is designed to be simple and gradual, so users can stay consistent without feeling overwhelmed.
 
@@ -975,12 +975,12 @@ Every lesson is not isolated.
 
 It connects across multiple systems:
 
-- Qur’an → meaning and context  
-- Hadith → explanation and practice  
-- Fiqh → rulings and actions  
-- Tafsir → deeper understanding  
-- Aqeedah → belief foundation  
-- Arabic → language clarity  
+* Qur’an → meaning and context  
+* Hadith → explanation and practice  
+* Fiqh → rulings and actions  
+* Tafsir → deeper understanding  
+* Aqeedah → belief foundation  
+* Arabic → language clarity  
 
 ---
 
@@ -988,7 +988,7 @@ It connects across multiple systems:
 
 ---
 
-# 🧩 Subsystems of the Learning Path
+## 🧩 Subsystems of the Learning Path
 
 ---
 
@@ -996,15 +996,15 @@ It connects across multiple systems:
 
 This system focuses on understanding the Qur’an beyond translation.
 
-### What it provides:
+### What it provides
 
-- word-by-word breakdown  
-- root analysis (صرف)  
-- grammar insights (نحو)  
-- contextual meanings  
-- connections to other ayahs  
+* word-by-word breakdown  
+* root analysis (صرف)  
+* grammar insights (نحو)  
+* contextual meanings  
+* connections to other ayahs  
 
-### Goal:
+### Goal
 
 > Help users understand what Allah is saying, not just read it.
 
@@ -1014,14 +1014,14 @@ This system focuses on understanding the Qur’an beyond translation.
 
 This system explains the sayings of Prophet ﷺ in a structured way.
 
-### What it provides:
+### What it provides
 
-- authentic hadith collections  
-- explanation of meaning  
-- context of narration  
-- practical lessons  
+* authentic hadith collections  
+* explanation of meaning  
+* context of narration  
+* practical lessons  
 
-### Goal:
+### Goal
 
 > Help users understand how Islam is practiced in real life.
 
@@ -1031,14 +1031,14 @@ This system explains the sayings of Prophet ﷺ in a structured way.
 
 This system focuses on rulings and actions.
 
-### What it provides:
+### What it provides
 
-- halal / haram rulings  
-- daily life guidance  
-- explanation of decisions  
-- differences of opinions (where applicable)  
+* halal / haram rulings  
+* daily life guidance  
+* explanation of decisions  
+* differences of opinions (where applicable)  
 
-### Goal:
+### Goal
 
 > Help users act correctly in their daily life.
 
@@ -1048,14 +1048,14 @@ This system focuses on rulings and actions.
 
 This system provides deeper explanation of Qur’anic verses.
 
-### What it provides:
+### What it provides
 
-- detailed explanations  
-- historical context  
-- connections between ayahs  
-- scholarly insights  
+* detailed explanations  
+* historical context  
+* connections between ayahs  
+* scholarly insights  
 
-### Goal:
+### Goal
 
 > Move from surface understanding to deep reflection.
 
@@ -1065,14 +1065,14 @@ This system provides deeper explanation of Qur’anic verses.
 
 This system focuses on beliefs.
 
-### What it provides:
+### What it provides
 
-- understanding of Tawheed  
-- attributes of Allah  
-- core Islamic beliefs  
-- clearing common misunderstandings  
+* understanding of Tawheed  
+* attributes of Allah  
+* core Islamic beliefs  
+* clearing common misunderstandings  
 
-### Goal:
+### Goal
 
 > Build a strong and correct foundation of faith.
 
@@ -1082,15 +1082,15 @@ This system focuses on beliefs.
 
 This system helps users understand the language of the Qur’an.
 
-### What it provides:
+### What it provides
 
-- Sarf (word forms)  
-- Nahw (grammar rules)  
-- vocabulary building  
-- sentence understanding  
-- linguistic patterns  
+* Sarf (word forms)  
+* Nahw (grammar rules)  
+* vocabulary building  
+* sentence understanding  
+* linguistic patterns  
 
-### Goal:
+### Goal
 
 > Help users slowly start understanding Arabic directly, without relying only on translations.
 
@@ -1102,7 +1102,8 @@ Instead of learning each subject separately, Nizaam connects them.
 
 ---
 
-### Example:
+### Example
+
 ```
 Learning Salah →
 
@@ -1114,14 +1115,13 @@ Arabic → word-level understanding
 Aqeedah → purpose of worship
 ```
 
-
 ---
 
-### Result:
+### Result
 
-- complete understanding  
-- correct action  
-- stronger belief  
+* complete understanding  
+* correct action  
+* stronger belief  
 
 ---
 
@@ -1142,9 +1142,9 @@ It provides answers based on authentic sources and scholarly guidance.
 
 To help users:
 
-- get reliable answers  
-- clear doubts  
-- understand complex topics  
+* get reliable answers  
+* clear doubts  
+* understand complex topics  
 
 ---
 
@@ -1152,23 +1152,23 @@ To help users:
 
 User asks a question →
 
-- system searches existing answers  
-- or routes to scholars (future)  
+* system searches existing answers  
+* or routes to scholars (future)  
 
 ---
 
 ### 📊 Features
 
-- verified answers  
-- reference-based responses  
-- topic-based search  
+* verified answers  
+* reference-based responses  
+* topic-based search  
 
 ---
 
 ### 🧠 What Makes It Different
 
-- focused on authenticity  
-- avoids unverified information  
+* focused on authenticity  
+* avoids unverified information  
 
 ---
 
@@ -1190,25 +1190,25 @@ It connects the community with the masjid in a simple and organized way.
 
 To help masjids:
 
-- manage daily operations  
-- communicate with the community  
-- organize events  
+* manage daily operations  
+* communicate with the community  
+* organize events  
 
 ---
 
 ### 📊 Features
 
-- prayer time management  
-- announcements  
-- event scheduling  
-- community updates  
+* prayer time management  
+* announcements  
+* event scheduling  
+* community updates  
 
 ---
 
 ### 🔗 Integration
 
-- connected with user apps  
-- users receive updates and reminders  
+* connected with user apps  
+* users receive updates and reminders  
 
 ---
 
@@ -1228,26 +1228,26 @@ This system will help users calculate and manage zakat properly.
 
 To help users:
 
-- calculate zakat correctly  
-- understand their obligations  
-- manage assets  
+* calculate zakat correctly  
+* understand their obligations  
+* manage assets  
 
 ---
 
 ### 📊 Features
 
-- zakat calculation  
-- asset tracking  
-- nisab calculation  
-- reminders  
+* zakat calculation  
+* asset tracking  
+* nisab calculation  
+* reminders  
 
 ---
 
 ### 🧠 What Makes It Important
 
-- reduces mistakes  
-- ensures proper calculation  
-- simplifies complex rules  
+* reduces mistakes  
+* ensures proper calculation  
+* simplifies complex rules  
 
 ---
 
@@ -1257,7 +1257,7 @@ To help users:
 
 ---
 
-# 🔄 How Nizaam Will Work (User Flow)
+## 🔄 How Nizaam Will Work (User Flow)
 
 1. User will interact with an app (Deen Companion, Scanner, Learning)
 2. Request will go to API Platform
@@ -1276,7 +1276,7 @@ Explanation + references shown
 
 ---
 
-# 🧠 Example: Halal Engine Flow
+### 🧠 Example: Halal Engine Flow
 
 ```
 Image → OCR → Extract → Normalize → Match → Decision → Explanation
@@ -1284,7 +1284,7 @@ Image → OCR → Extract → Normalize → Match → Decision → Explanation
 
 ---
 
-# 📊 Data Flow
+## 📊 Data Flow
 
 ```
 User → App → API → Engines → Database
@@ -1313,17 +1313,16 @@ User Query
 → Final Output
 ```
 
-
 This ensures:
 
-- accurate understanding  
-- contextual reasoning  
-- evidence-based answers  
-- clear explanations  
+* accurate understanding  
+* contextual reasoning  
+* evidence-based answers  
+* clear explanations  
 
 ---
 
-# 💡 What Will Make Nizaam Different
+## 💡 What Will Make Nizaam Different
 
 * Not a single app → a complete system
 * Data-first architecture
@@ -1333,7 +1332,7 @@ This ensures:
 
 ---
 
-# 🛠️ Tech Stack (Planned)
+## 🛠️ Tech Stack (Planned)
 
 * Node.js / Express
 * Next.js
@@ -1341,11 +1340,11 @@ This ensures:
 * PostgreSQL
 * Monorepo architecture
 * MediaProc (OCR & media processing)
-* Orbyt (automation engine) 
+* Orbyt (automation engine)
 
 ---
 
-# 🚀 Development Approach
+## 🚀 Development Approach
 
 1. Data pipeline + schemas
 2. Engines (language + halal + fiqh)
@@ -1356,7 +1355,7 @@ This ensures:
 
 ---
 
-# 📌 Current Focus
+## 📌 Current Focus
 
 * schema design
 * bridges & data pipeline
@@ -1366,7 +1365,7 @@ This ensures:
 
 ---
 
-# 🤝 Contribution
+## 🤝 Contribution
 
 Nizaam will be developed as an open ecosystem.
 
@@ -1379,7 +1378,7 @@ Future contributions may include:
 
 ---
 
-# 🤝 Vision
+## 🤝 Vision
 
 Nizaam aims to become:
 
@@ -1390,7 +1389,7 @@ Nizaam aims to become:
 
 ---
 
-# 🌙 Closing
+## 🌙 Closing
 
 > A structured life will lead to consistency.
 > Consistency will lead to discipline.
